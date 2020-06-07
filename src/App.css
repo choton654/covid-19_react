@@ -1,0 +1,19 @@
+.container {
+  display: 'flex';
+  justify-content: 'center';
+  align-items: 'center';
+  flex-direction: 'column';
+}
+.covidImage {
+  display: block;
+  width: 300px;
+  margin: 50px auto;
+}
+@media screen and (max-width: 770px) {
+  .container {
+    margin: 0 10%;
+  }
+  .covidImage {
+    width: 100%;
+  }
+}
